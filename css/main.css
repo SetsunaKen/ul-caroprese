@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600');
-html, body {
+html, body, h1, h2, p, nav, ul, li, a {
     font-family: 'Source Sans Pro', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 @media screen and (max-width: 750px) {
@@ -22,11 +24,16 @@ html, body {
 .uk-navbar-container:not(.uk-navbar-transparent) {
     background: #ffffff;
     border-bottom: solid 1px rgba(0, 0, 0, 0.08);
+    height: 64px;
+}
+
+.uk-navbar-nav>li>a, .uk-navbar-toggle {
+    height: 61px;
 }
 
 .logo {
     height: 350px;
-    background-color: #f8f8f8;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.08);
 }
 
 .logo-img {
@@ -40,13 +47,18 @@ html, body {
     padding: 0 26px;
 }
 
+.feats {
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.headline {
+    margin-bottom: 30px;
+}
+
 footer {
-    background-color: #f8f8f8;
     border-top: solid 1px rgba(0, 0, 0, 0.08);
-    height: 75px;
-    bottom: 0;
-    position: absolute;
-    width: 100%;
+    padding-bottom: 10px;
 }
 
 .footer-space {
