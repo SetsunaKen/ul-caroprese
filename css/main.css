@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600');
-html, body, h1, h2, p, nav, ul, li, a, .uk-navbar-nav>li>a, .uk-navbar-item {
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400');
+html, body, h1, h2, h3, p, nav, ul, li, a, .uk-navbar-nav>li>a, .uk-navbar-item {
     font-family: 'Source Sans Pro', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -30,6 +30,10 @@ html, body, h1, h2, p, nav, ul, li, a, .uk-navbar-nav>li>a, .uk-navbar-item {
 .uk-navbar-nav>li>a, .uk-navbar-toggle {
     height: 61px;
 }
+
+.uk-navbar-item {
+    height: 64px;
+  }
 
 
 .logo {
